@@ -1,0 +1,35 @@
+@import url(header.css);
+@import url(responsive.css);
+@import url(games.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(footer.css);
+/* IMPORT GOOGLE FONTS LINK */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+/* ROOT VARIABLES */
+:root {
+  /* HEADER RV*/
+  --header-bg-color: #5252d4;
+
+  --header-txt-color: #1f2641;
+  --header-txt-fs: 0.9em;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+
+  --transition: all 400ms ease;
+
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+body {
+  background-color: #1f2641;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Squid Game</title>
+  </head>
+  <body>
+    <!-- STARTS HEADER -->
+    <header>
+      <div class="logobox">
+        <a href="#hero__container"
+          ><img src="images/logo.png" alt="squid game logo - black figures "
+        /></a>
+      </div>
+      <nav class="navigation">
+        <ul class="nav__links" id="nav__links">
+          <li>
+            <a
+              href="index.html"
+              class="active smooth-scroll"
+              data-target="hero__container"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              href="#games__container"
+              class="smooth-scroll"
+              data-target="games__section"
+              >GAMES</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about__section"
+              class="smooth-scroll"
+              data-target="about__section"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact__section"
+              class="smooth-scroll"
+              data-target="contact__section"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+        <div class="burger__menu">
+          <i class="fa-solid fa-bars" id="show-nav"></i>
+          <i class="fa-solid fa-xmark" id="close-nav"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- ENDS HEADER -->
+    <main>
+      <!-- STARTS HERO SECTION -->
+      <section class="hero__container" id="hero__container">
+        <div class="hero__main-container">
+          <div class="hero__left-block">
+            <h1>Dare to Play?</h1>
+            <div class="typewriter">Join the Squid Game</div>
+            <p>
+              In this riveting competition, ordinary people from all walks of
+              life are recruited to participate in deadly games for a chance at
+              a life-changing prize. As the stakes get higher, contestants must
+              confront their pasts and confront their fears. The clock is
+              ticking, and every move counts. Will you seize the opportunity or
+              succumb to the fear of the unknown?
+            </p>
+            <a href="index.html" class="button">Take the chellange</a>
+          </div>
+          <div class="hero__right-block">
+            <div class="image-wrapper">
+              <div class="content">
+                <img src="images/guard.png" alt="Square figure SQ guard" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- STARTS GAME SECTION -->
+      <section id="games__section">
+        <h1>Enter the Deadly Playground</h1>
+        <div class="games__container">
+          <div class="games__left" id="games__left">
+            <div class="close-modal">
+              <i class="fa-solid fa-circle-xmark" id="close__modal"></i>
+            </div>
+            <h5>First Game</h5>
+            <h2>Red Light Green Light</h2>
+            <p>
+              The game is simple, and you just have to move from point A to
+              point B without being “seen”, but rules vary. In most cases, the
+              ultimate goal is to get past the leader when their back is turned.
+              In others, you have to touch the tree in which the leader is
+              leaning without being caught moving.
+            </p>
+            <div class="levels">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <p>LEVEL DIFFICULITY</p>
+            </div>
+          </div>
+          <div class="games__right" id="games__right"></div>
+        </div>
+      </section>
+      <!-- STARTS ABOUT SECTION -->
+      <section id="about__section">
+        <h1>ABOUT SQUID GAME</h1>
+        <div class="about__container">
+          <div class="about__left">
+            <h5>Squid Game Season 2!</h5>
+            <div class="yt__video-container">
+              <video src="images/SQ-VIDEO-trailer.mp4" controls></video>
+            </div>
+            <p>
+              The suspenseful and heart-stopping survival drama, Squid Game, is
+              back with an electrifying second season! Brace yourself for
+              another adrenaline-pumping adventure as new players enter the
+              deadly playground, facing even more twisted and challenging games.
+              Uncover the mysteries of the enigmatic organizers and witness the
+              relentless struggle for survival.
+            </p>
+            <br />
+          </div>
+          <div class="about__right">
+            <div class="about__top">
+              <h3>THE FRONT MAN</h3>
+              <div class="frontman__wrapper">
+                <div class="frontman__info">
+                  <p>
+                    He is the leader of the Masked Men and the enigmatic
+                    overseer of the Squid Game. As the Front Man, In-ho is very
+                    strict and ruthless to keep the order within the games and
+                    keep his underlings under control, executing the ones who
+                    break the rules and disturb the games.
+                  </p>
+
+                  <div class="pow-int__pagination">
+                    <p>Powers / Skills</p>
+                    <div class="pagination__wrapper">
+                      <i class="fa-solid fa-chevron-left"></i>
+                      <span class="skill"></span>
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="frontman__pic">
+                  <img src="images/sss.png" alt="" />
+                  <div class="frontman__learn-more">
+                    <button id="frontman__button">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about__bot" id="about__bot">
+              <div class="guards">
+                <img src="images/Manager.png" alt="" />
+                <h3>Managers</h3>
+                <p>
+                  Managers are the ground commanders who act on the direct
+                  orders of the Front Man. The Front Man trusts these guards the
+                  most. This is the highest rank of the staff.
+                </p>
+              </div>
+              <div class="guards">
+                <img src="images/Soldier.png" alt="" />
+                <h3>Soldiers</h3>
+                <p>
+                  Soldiers are the armed guards who enforce the rules of the
+                  Squid Games and elimination policy, as well as maintain its
+                  integrity, by force.
+                </p>
+              </div>
+              <div class="guards">
+                <img src="images/Worker.png" alt="" />
+                <h3>Workers</h3>
+                <p>
+                  Workers are the 'civilians' of the guards. They cannot speak
+                  without permission from Managers.Their role is simply reduced
+                  into menial labour.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- STARTS CONTACT SECTION -->
+      <section id="contact__section">
+        <div class="contact__container">
+          <div class="contact__left">
+            <div class="form__wrapper">
+              <div class="contact__heading">
+                <h1>Join Us</h1>
+                <p class="text">
+                  Or reach us via :
+                  <a href="mailto:squidgame@gmail.com">squidgame@gmail.com</a>
+                </p>
+              </div>
+
+              <form
+                action="index.html"
+                method="post"
+                class="contact__form"
+                id="form"
+              >
+                <div class="input-wrap">
+                  <input
+                    id="firstname"
+                    autocomplete="off"
+                    name="firstname"
+                    type="text"
+                    class="contact__input success"
+                  />
+                  <label for="firstname">Firstname</label>
+                  <i class="fa-solid fa-address-card icon"></i>
+                  <span class="err-msg"></span>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    autocomplete="off"
+                    name="lastname"
+                    id="lastname"
+                    type="text"
+                    class="contact__input"
+                  />
+                  <label for="lastname">Lastname</label>
+                  <i class="fa-solid fa-address-card icon"></i>
+                  <span class="err-msg"></span>
+                </div>
+
+                <div class="input-wrap w-100">
+                  <input
+                    id="email"
+                    autocomplete="off"
+                    name="email"
+                    type="email"
+                    class="contact__input"
+                  />
+                  <label for="email">Email</label>
+                  <i class="fa-solid fa-envelope icon"></i>
+                  <span class="err-msg"></span>
+                </div>
+
+                <div class="input-wrap textarea w-100">
+                  <textarea
+                    name="message"
+                    id="message"
+                    autocomplete="off"
+                    class="contact__input"
+                  ></textarea>
+                  <label for="message">Message</label>
+                  <i class="fa-solid fa-inbox icon"></i>
+                </div>
+
+                <button type="submit" id="submit-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+          <div class="contact__right">
+            <h1>Squid Game Invitation Card</h1>
+            <div class="maincontainer">
+              <div class="thecard" id="thecard">
+                <div class="thefront" id="thefront"></div>
+                <div class="theback" id="theback"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="logos">
+          <div class="logos__slide">
+            <img src="sponsors/Netflix.svg" alt="Netflix Logo" />
+            <img src="sponsors/Nike.svg" alt="Nike Logo" />
+            <img
+              src="sponsors/smith-and-wesson.svg"
+              alt="smith-and-wesson Logo"
+            />
+            <img src="sponsors/Adidas.png" alt="Adidas Logo" />
+            <img src="sponsors/Tesla.png" alt="Tesla Logo" />
+            <img src="sponsors/Nvidia.png" alt="Nvidia Logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- STARTS FOOTER -->
+    <footer id="footer__container">
+      <div class="footer">
+        <div class="footer__icons">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/squidgamenetflix/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/squidgame?lang=en" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/squid-games/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/squidgamenetflix/?hl=en"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer__links" id="footer__links">
+          <li>
+            <a
+              href="#hero__container"
+              class="active smooth-scroll"
+              data-target="hero__container"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              href="#games__container"
+              class="smooth-scroll"
+              data-target="games__section"
+              >GAMES</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about__section"
+              class="smooth-scroll"
+              data-target="about__section"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact__section"
+              class="smooth-scroll"
+              data-target="contact__section"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+
+        <p>&copy;2023 STOIC | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/4f523a47e8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

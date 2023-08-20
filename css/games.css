@@ -1,0 +1,122 @@
+#games__section {
+  background: #2e3267;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+#games__section h1 {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.games__container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  width: var(--container-width-md);
+}
+
+.games__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.games__left h5 {
+  color: var(--color-white);
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+.games__left h2 {
+  color: var(--color-white);
+  font-size: 1.8em;
+  margin: 15px 0;
+}
+.close-modal {
+  display: none;
+}
+.levels {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.levels i {
+  font-size: 1.4em;
+  color: #ffdf00;
+  margin-right: 8px;
+}
+
+.levels p {
+  display: inline-block;
+  color: var(--color-white);
+  background: transparent;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  transition: var(--transition);
+  margin-left: 2em;
+}
+
+.games__right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.games__content {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.games__content img {
+  height: 100%;
+}
+
+.active {
+  opacity: 1;
+}
+.games__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #00bf8e;
+  margin-left: 15px;
+}
+
+.games__desc p {
+  color: var(--color-white);
+}
+.button__more-info button {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  background: #6c63ff;
+  padding: 8px 25px;
+  border: 1px solid transparent;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+.button__more-info button:hover {
+  background: transparent;
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
